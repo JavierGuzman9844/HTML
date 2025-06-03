@@ -27,14 +27,14 @@
 #CSS
 
 body {
-    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    background-color: #5988FF;
     font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
     padding: 0 20px;
 }
 
 h1 {
-    color: #fff;
+    color: #FD98FB;
     background: #ff6f61;
     padding: 15px;
     border-radius: 10px;
@@ -45,7 +45,7 @@ h1 {
 }
 
 h2 {
-    color: #4f8cff;
+    color: #D6FF6B;
     font-family: 'Courier New', Courier, monospace;
     text-shadow: 1px 1px 2px #fff;
 }
@@ -57,8 +57,7 @@ h3 {
 }
 
 p {
-    color: #333;
-    font-size: 1.1em;
+    color: #FFFFFF;
     background: rgba(255,255,255,0.7);
     border-left: 5px solid #ffb347;
     padding: 8px 15px;
@@ -77,17 +76,7 @@ ul {
 
 li {
     color: #ff6f61;
-    font-weight: bold;
     font-family: 'Trebuchet MS', sans-serif;
-    margin-bottom: 8px;
-    transition: color 0.3s;
 }
 
-li:hover {
-    color: #4f8cff;
-    cursor: pointer;
-}
 
-table {
-    display: none; /* Oculta la etiqueta table incorrecta */
-}
